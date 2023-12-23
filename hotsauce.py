@@ -10,20 +10,13 @@ def calculate_probabilities(num_trials):
 
     for _ in range(num_trials):
         drinks = simulate_game()
-
-        # Player A
+        
         if drinks[0] == 1:
             total_a += 1
-
-        # Player B
         if drinks[1] == 1:
             total_b += 1
-
-        # Player C
         if drinks[2] == 1:
             total_c += 1
-
-        # Player D
         if drinks[3] == 1:
             total_d += 1
 
